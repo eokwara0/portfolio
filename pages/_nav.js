@@ -64,7 +64,7 @@ export function Section2(){
       <div className={styles.skilldatadiv}>
           {data.map( r => <div className={styles.sec2data}>
 
-            An enthusiastic coder, with a passion for math ,
+          A fldjfljdn enthusiastic coder, with a passion for math ,
           problem solving and complex logic. I enjoy simplifying
           complex problem, and coding affords me that luxury.
           My specialties include quickly learning new skills and

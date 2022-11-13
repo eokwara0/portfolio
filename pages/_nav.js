@@ -133,12 +133,3 @@ export function Footer(){
       </div>
     </div>
 }
-
-
-// echo "# enfint" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/eokwara0/enfint.git
-// git push -u origin main

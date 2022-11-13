@@ -11,7 +11,7 @@ export default function NavBar( props ){
         <div className="nav-bar-container">
           {props.data}
           <div className={ "name-nav " + styles.container}>
-            <p>Khethelo njomo</p>
+            <p>Emmanuel Okwara</p>
           </div>
 
           <div className={"nav-bar-div "}>
@@ -35,7 +35,7 @@ export function Section1(){
       </div>
       <div className={styles.subsection2} >
         <h6 className={styles.smalltitle}>Software-Engineer</h6>
-        <h1 className={styles.title + " " + styles.paragraph}>Khethelo Njomo</h1>
+        <h1 className={styles.title + " " + styles.paragraph}>Emmanuel Okwara</h1>
         <div className={styles.description}>
           <p className={styles.paragraph}>An enthusiastic coder, with a passion for math ,<br/>problem solving and complex logic. I enjoy simplifying<br/> complex problem, and coding affords me that luxury.<br/>
 My specialties include quickly learning new skills and<br/> programming languages, problem-solving, Agile-Methodologies,<br/> CI/CD,MVC architecture.
@@ -55,24 +55,50 @@ My specialties include quickly learning new skills and<br/> programming language
 
 export function Section2(){
 
-  let data = [3,4,5,6]
+  let data = [
+    { 
+      skill: "Java" , 
+      data:`I am proficient in the Java language and with the aptitude for 
+        creating and designing Java-based applications, I  create , test and  manage software
+          using the Java programming language and  tools like Apache maven , Junit and the spring framework.
+          I can easily be integrated into a working team and be a contributing member.`
+      },{
+        skill:"NodeJs",
+        data : `NodeJS is a JavaScript runtime used for building JavaScript applications,
+                Using node I build and deploy back-end services using express, graphQl and MongoDB as well as build front-end applications
+                using front-end frameworks such as ReactJs , NextJS and vanilla-JS , With the power of NodeJs I am able to integrate my front-end 
+                applications with my back-end services 
+                 `
+      },{
+        skill:"Database Management",
+        data : `I am a critical thinker with a passion for tackling complex and complicated problems, I enjoy working with data , and 
+                finding new way to manipulate and handle this data. To date I have worked on different database management systems , systems such as
+                MySQL , MongoDB and PostgresQL.
+                 `
+      },{
+        skill:"Architecture Design",
+        data : `
+                I build and manage distributed systems , using Java Or NodeJs , I Convert monolithic applications into more efficient and faster applications 
+                using the micro-service architecture ,I believe in efficiency and improved performance as well as building quality software.
+                `
+      }
+    ]
   return (
     <div className={styles.section2}>
       <div className={styles.skilldiv}>
         <h1 id="skills"className={styles.titlediv}>Skills</h1>
       </div>
-      <div className={styles.skilldatadiv}>
-          {data.map( r => <div className={styles.sec2data}>
-
-          A fldjfljdn enthusiastic coder, with a passion for math ,
-          problem solving and complex logic. I enjoy simplifying
-          complex problem, and coding affords me that luxury.
-          My specialties include quickly learning new skills and
-          programming languages, problem-solving, Agile-Methodologies,
-          CI/CD,MVC architecture. My skills include
-          C#, Java, NodeJS,, React, Python ,SQL, GraphQL, Docker, and Git/Github/GitLab.
-                    </div>)}
+      <div className={styles.skillsContainer}>
+        <div className={styles.skilldatadiv}>
+          {data.map( r => 
+          <div className={styles.sec2data}>
+            <h2>{r.skill}</h2>
+            <p>{r.data }</p>
+          </div>
+          )}
       </div>
+      </div>
+      
     </div>
   )
 }

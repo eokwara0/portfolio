@@ -123,6 +123,10 @@
   /* background-color: rgb(240, 240, 240) ; */
 }
 
+.sec2data h2{
+  color : rgb(35, 153, 104)
+}
+
 .titlediv{
   width: 80% ;
   /* background-color: rgb(20, 220, 153); */
@@ -311,6 +315,9 @@
   margin: 0;
   line-height: 1.15;
   font-size: 1.3rem;
+}
+.smalltitle::first-letter{
+  color :rgb(32, 178, 64) ;
 }
 
 .title {

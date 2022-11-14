@@ -377,6 +377,14 @@
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
+.description p {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px ;
+    max-width: 600px ;
+    /* background-color: yellow ; */
+
+  }
 
 .card p {
   margin: 0;
@@ -406,6 +414,8 @@
   .paragraph{
     text-align: center ;
   }
+
+  
   .section {
     display:flex; 
     justify-content: center;

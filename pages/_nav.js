@@ -37,11 +37,10 @@ export function Section1(){
         <h6 className={styles.smalltitle}>Software-Engineer</h6>
         <h1 className={styles.title + " " + styles.paragraph}>Emmanuel Okwara</h1>
         <div className={styles.description}>
-          <p className={styles.paragraph}>An enthusiastic coder, with a passion for math ,<br/>problem solving and complex logic. I enjoy simplifying<br/> complex problem, and coding affords me that luxury.<br/>
-My specialties include quickly learning new skills and<br/> programming languages, problem-solving, Agile-Methodologies,<br/> CI/CD,MVC architecture.
-
- My skills include <br/> C#, Java, NodeJS,, React, Python ,SQL, GraphQL, Docker, and Git/Github/GitLab.
-</p>
+          <p className={styles.paragraph}>I want to become a developer at sovTech because I want to create a meaningful impact In the world.
+          And being a developer would help me get closer to this Goal, I have a passion for improving the live's of everyday people , and through
+          the graduate programme I hope to get enough exprience to make an impact in a big way. 
+          I believe that if there's a problem , some part of technology can be used to solve it and software is a big part of the tech world.</p>
         </div>
         
         <div className={styles.buttondiv}>

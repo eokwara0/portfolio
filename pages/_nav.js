@@ -45,7 +45,7 @@ My specialties include quickly learning new skills and<br/> programming language
         </div>
         
         <div className={styles.buttondiv}>
-          <div className={styles.button1}>Download CV</div>
+          <div className={styles.button1}><Link href="/resume.pdf">Download CV </Link></div>
           <div className={styles.button2}><a href="#contact">Contact Me</a></div>
         </div>
       </div>

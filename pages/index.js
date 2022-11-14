@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>porfolio-Site</title>
         <meta name="description" content="SovTech portfolio Website Submission" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/sumo.png" />
       </Head>
       <NavBar />
       <div className={styles.maindiv}>
